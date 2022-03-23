@@ -16,51 +16,51 @@ import VideoIcon from "../assets/icons/header/video.png";
 export default function Header() {
   return (
     <>
-      <div className="w-full h-14 sticky bg-white flex justify-between items-center box-border top-0 p-2">
+      <div className="sticky top-0 z-10 box-border flex h-14 w-full items-center justify-between bg-white p-2">
         <Left />
 
         <div className="flex items-center">
           <img
-            className="leading-4 mr-2"
+            className="mr-2 leading-4"
             src={FaceBookIcon}
             alt="facebook"
             width="40px"
             height="40px"
           />
-          <div className="flex items-center bg-[#EFF1F4] rounded-[50px]">
+          <div className="flex items-center rounded-[50px] bg-[#EFF1F4]">
             <img
-              className="leading-4 ml-2"
+              className="ml-2 leading-4"
               src={SearchIcon}
               alt="search"
               width="16px"
               height="16px"
             />
             <input
-              className="outline-none bg-[#EFF1F4] rounded-[50px]  h-10 pl-[7px] pr-[9px] py-2"
+              className="h-10 rounded-[50px] bg-[#EFF1F4]  py-2 pl-[7px] pr-[9px] outline-none"
               type="text"
               placeholder="Tìm kiếm trên facebook"
             />
           </div>
         </div>
-        <div className="flex justify-center items-center gap-1">
-          <div className="w-[112px] flex justify-center items-center hover:bg-[#F0F2F5] h-[52px] rounded-lg p-1 cursor-pointer">
+        <div className="flex items-center justify-center gap-1">
+          <div className="flex h-[52px] w-[112px] cursor-pointer items-center justify-center rounded-lg p-1 hover:bg-[#F0F2F5]">
             <img className="" src={HomeIcon} alt="home" width="28px" />
           </div>
-          <div className="w-[112px] flex justify-center items-center hover:bg-[#F0F2F5] h-[52px] rounded-lg p-1 cursor-pointer">
+          <div className="flex h-[52px] w-[112px] cursor-pointer items-center justify-center rounded-lg p-1 hover:bg-[#F0F2F5]">
             <img className="" src={VideoIcon} alt="home" width="28px" />
           </div>
-          <div className="w-[112px] flex justify-center items-center hover:bg-[#F0F2F5] h-[52px] rounded-lg p-1 cursor-pointer">
+          <div className="flex h-[52px] w-[112px] cursor-pointer items-center justify-center rounded-lg p-1 hover:bg-[#F0F2F5]">
             <img className="" src={StoreIcon} alt="home" width="28px" />
           </div>
-          <div className="w-[112px] flex justify-center items-center hover:bg-[#F0F2F5] h-[52px] rounded-lg p-1 cursor-pointer">
+          <div className="flex h-[52px] w-[112px] cursor-pointer items-center justify-center rounded-lg p-1 hover:bg-[#F0F2F5]">
             <img className="" src={PeopleIcon} alt="home" width="28px" />
           </div>
-          <div className="w-[112px] flex justify-center items-center hover:bg-[#F0F2F5] h-[52px] rounded-lg p-1 cursor-pointer">
+          <div className="flex h-[52px] w-[112px] cursor-pointer items-center justify-center rounded-lg p-1 hover:bg-[#F0F2F5]">
             <img className="" src={GameIcon} alt="home" width="28px" />
           </div>
         </div>
         <div className="flex items-center">
-          <div className="cursor-pointer flex items-center rounded-2xl hover:bg-[#EFF1F4] p-1 mr-2">
+          <div className="mr-2 flex cursor-pointer items-center rounded-2xl p-1 hover:bg-[#EFF1F4]">
             <img
               className="rounded-full"
               src={AvatarIcon}
@@ -70,7 +70,7 @@ export default function Header() {
             />
             <span>Trưởng</span>
           </div>
-          <div className="cursor-pointer w-10 h-10 rounded-full bg-[#F0F2F5] flex items-center justify-center mr-2">
+          <div className="mr-2 flex h-10 w-10 cursor-pointer items-center justify-center rounded-full bg-[#F0F2F5]">
             <img
               className="rounded-full"
               src={ListIcon}
@@ -79,7 +79,7 @@ export default function Header() {
               height="28px"
             />
           </div>
-          <div className="cursor-pointer w-10 h-10 rounded-full bg-[#F0F2F5] flex items-center justify-center mr-2">
+          <div className="mr-2 flex h-10 w-10 cursor-pointer items-center justify-center rounded-full bg-[#F0F2F5]">
             <img
               className="rounded-full"
               src={MessengerIcon}
@@ -88,7 +88,7 @@ export default function Header() {
               height="28px"
             />
           </div>
-          <div className="cursor-pointer w-10 h-10 rounded-full bg-[#F0F2F5] flex items-center justify-center mr-2">
+          <div className="mr-2 flex h-10 w-10 cursor-pointer items-center justify-center rounded-full bg-[#F0F2F5]">
             <img
               className="rounded-full"
               src={AlarmIcon}
@@ -97,7 +97,7 @@ export default function Header() {
               height="28px"
             />
           </div>
-          <div className="cursor-pointer w-10 h-10 rounded-full bg-[#F0F2F5] flex items-center justify-center mr-2">
+          <div className="mr-2 flex h-10 w-10 cursor-pointer items-center justify-center rounded-full bg-[#F0F2F5]">
             <img
               className="rounded-full"
               src={ChevronDown}

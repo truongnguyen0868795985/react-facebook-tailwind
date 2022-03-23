@@ -14,13 +14,14 @@ export default function Comment() {
           <input
             className="h-full w-full rounded-xl bg-[#F0F2F5] px-3 py-2 leading-3 outline-none"
             type="text"
+            placeholder="Viết câu trả lời"
           />
         </div>
       </div>
 
-      <ul>
+      <ul className="mb-1">
         <li className="flex">
-          <div className="mr-3 basis-10 cursor-pointer">
+          <div className="mr-3 shrink-0 cursor-pointer">
             <img src={AvatarIcon} width="24px" height="24px" alt="like" />
           </div>
           <div className="flex flex-col">
@@ -43,7 +44,7 @@ export default function Comment() {
           </div>
         </li>
         <li className="flex">
-          <div className="mr-3 basis-10 cursor-pointer">
+          <div className="mr-3 shrink-0 cursor-pointer">
             <img src={AvatarIcon} width="24px" height="24px" alt="like" />
           </div>
           <div className="flex flex-col">
@@ -66,7 +67,7 @@ export default function Comment() {
           </div>
         </li>
         <li className="flex">
-          <div className="mr-3 basis-10 cursor-pointer">
+          <div className="mr-3 shrink-0 cursor-pointer">
             <img src={AvatarIcon} width="24px" height="24px" alt="like" />
           </div>
           <div className="flex flex-col">
@@ -91,6 +92,13 @@ export default function Comment() {
           </div>
         </li>
       </ul>
+
+      <div className="flex justify-between font-semibold text-[#65676b]">
+        <div className="cursor-pointer hover:underline">
+          Xem thêm câu trả lời
+        </div>
+        <div className="cursor-pointer hover:underline">3/50</div>
+      </div>
     </div>
   );
 }
