@@ -4,9 +4,11 @@ import ChevronDown from "../assets/icons/header/chevron-down.png";
 import FaceBookIcon from "../assets/icons/header/facebook.png";
 import GameIcon from "../assets/icons/header/game.png";
 import HomeIcon from "../assets/icons/header/home.png";
+import Left from "./Left";
 import ListIcon from "../assets/icons/header/list.png";
 import MessengerIcon from "../assets/icons/header/messenger.png";
 import PeopleIcon from "../assets/icons/header/people.png";
+import Right from "./Right";
 import SearchIcon from "../assets/icons/header/search.svg";
 import StoreIcon from "../assets/icons/header/store.png";
 import VideoIcon from "../assets/icons/header/video.png";
@@ -15,7 +17,7 @@ export default function Header() {
   return (
     <>
       <div className="w-full h-14 sticky bg-white flex justify-between items-center box-border top-0 p-2">
-        <div className="absolute top-0 left-0">Left</div>
+        <Left />
 
         <div className="flex items-center">
           <img
@@ -105,7 +107,8 @@ export default function Header() {
             />
           </div>
         </div>
-        <div className="absolute top-0 right-0">Right</div>
+
+        <Right />
       </div>
     </>
   );
