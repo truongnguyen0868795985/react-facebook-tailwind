@@ -8,9 +8,9 @@ export default function Header() {
           <img src={AvatarIcon} width="40px" height="40px" alt="avatar" />
         </div>
         <div className="p-1">
-          <a href="#" className="font-semibold hover:underline">
+          <div href="#" className="font-semibold hover:underline">
             GEARVN - Chợ PC & Gaming Gear
-          </a>
+          </div>
           <div className="text-sm text-[#65676b]">
             Long Hoang · 21 tháng 3 lúc 11:55 ·
           </div>
